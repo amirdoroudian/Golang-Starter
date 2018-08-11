@@ -25,7 +25,7 @@ type News struct {
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>چقدر خفنیم ما</h1>")
+	fmt.Fprintf(w, "<h1>صفحه اصلی</h1>")
 }
 
 func newsAggHandler(w http.ResponseWriter, r *http.Request) {	
